@@ -46,3 +46,47 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+section.mini-barra-top{
+
+    background-color: #614B65;
+    max-height: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info{
+
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 0px 32px;
+
+        .texto{
+
+            border-right: 1px solid #ffffff ;
+            padding-right: 4px;
+            padding-left: 4px;
+
+            &:last-child{
+
+                border: none;
+
+            }
+
+            .destaque{
+
+                font-weight: 700;
+                padding-left: 4px;
+
+
+            }
+
+        }
+
+    }
+    
+
+}

@@ -41,4 +41,42 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+section.mini-barra-top {
+  background-color: #614B65;
+  max-height: 30px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.mini-barra-top .info {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0px 32px;
+}
+
+section.mini-barra-top .info .texto {
+  border-right: 1px solid #ffffff;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+section.mini-barra-top .info .texto:last-child {
+  border: none;
+}
+
+section.mini-barra-top .info .texto .destaque {
+  font-weight: 700;
+  padding-left: 4px;
+}
 /*# sourceMappingURL=styles.css.map */
