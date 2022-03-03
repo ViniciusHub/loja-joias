@@ -79,4 +79,46 @@ section.mini-barra-top .info .texto .destaque {
   font-weight: 700;
   padding-left: 4px;
 }
+
+.banner-topo .mySwiper .container__wrapper .swiper-slide img {
+  max-height: 460px;
+}
+
+.banner-topo .mySwiper .swiper-button-next,
+.banner-topo .mySwiper .swiper-button-prev {
+  color: #542D84;
+  background-color: rgba(141, 148, 186, 0.3);
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+.banner-topo .mySwiper .swiper-button-next:after,
+.banner-topo .mySwiper .swiper-button-prev:after {
+  font-size: 32px;
+}
+
+.banner-topo .mySwiper .swiper-button-next.swiper-button-disabled,
+.banner-topo .mySwiper .swiper-button-prev.swiper-button-disabled {
+  background-color: transparent;
+}
+
+.banner-topo .mySwiper .swiper-button-next {
+  margin-right: 9%;
+}
+
+.banner-topo .mySwiper .swiper-button-prev {
+  margin-left: 9%;
+}
+
+.banner-topo .mySwiper .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: #C4C4C4;
+  opacity: 1;
+}
+
+.banner-topo .mySwiper .swiper-pagination-bullet-active {
+  background-color: #8D94BA;
+}
 /*# sourceMappingURL=styles.css.map */
