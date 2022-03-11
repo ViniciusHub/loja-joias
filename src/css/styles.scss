@@ -47,6 +47,23 @@ body {
     object-fit: cover;
 }
 
+.texto-forte {
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+}
+
+.texto-normal {
+
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+
+}
+
 section.mini-barra-top {
 
     background-color: #614B65;
@@ -118,13 +135,13 @@ section.mini-barra-top {
             border-radius: 50%;
 
 
-            &:after{
+            &:after {
 
                 font-size: 32px;
 
             }
 
-            &.swiper-button-disabled{
+            &.swiper-button-disabled {
 
                 background-color: transparent;
 
@@ -155,5 +172,57 @@ section.mini-barra-top {
 
     }
 
+
+}
+
+
+.barra-topo {
+
+    background-color: #614B65;
+    height: 100%;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .barra-topo-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1286px;
+        margin: 0 auto;
+        width: 100%;
+
+        .box-barra-topo {
+
+            img {
+
+                max-width: 40px;
+                height: auto;
+
+            }
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 270px;
+            margin-left: 50px;
+
+            .texto--box-barra-topo {
+
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+
+                .linha---texto--box-barra-topo {
+
+                }
+
+            }
+
+        }
+    }
 
 }

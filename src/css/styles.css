@@ -42,6 +42,19 @@ body {
      object-fit: cover;
 }
 
+.texto-forte {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.texto-normal {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
 section.mini-barra-top {
   background-color: #614B65;
   max-height: 30px;
@@ -120,5 +133,66 @@ section.mini-barra-top .info .texto .destaque {
 
 .banner-topo .mySwiper .swiper-pagination-bullet-active {
   background-color: #8D94BA;
+}
+
+.barra-topo {
+  background-color: #614B65;
+  height: 100%;
+  max-height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.barra-topo .barra-topo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1286px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.barra-topo .barra-topo-container .box-barra-topo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 270px;
+  margin-left: 50px;
+}
+
+.barra-topo .barra-topo-container .box-barra-topo img {
+  max-width: 40px;
+  height: auto;
+}
+
+.barra-topo .barra-topo-container .box-barra-topo .texto--box-barra-topo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
