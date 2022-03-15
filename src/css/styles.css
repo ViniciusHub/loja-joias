@@ -55,6 +55,13 @@ body {
   color: #FFFFFF;
 }
 
+.container-flex {
+  max-width: 1286px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
 section.mini-barra-top {
   background-color: #614B65;
   max-height: 30px;
@@ -91,6 +98,49 @@ section.mini-barra-top .info .texto:last-child {
 section.mini-barra-top .info .texto .destaque {
   font-weight: 700;
   padding-left: 4px;
+}
+
+.barra-categoria-topo {
+  height: 100%;
+  max-height: 79px;
+  background-color: #9A7AA0;
+}
+
+.barra-categoria-topo .container-barra-categoria-topo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.barra-categoria-topo .container-barra-categoria-topo .item-categoria--barra-categoria-topo {
+  margin-right: 30px;
+}
+
+.barra-categoria-topo .container-barra-categoria-topo .item-categoria--barra-categoria-topo h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Ovo', serif;
+}
+
+.barra-categoria-topo .container-barra-categoria-topo .item-categoria--barra-categoria-topo span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .banner-topo .mySwiper .container__wrapper .swiper-slide img {
